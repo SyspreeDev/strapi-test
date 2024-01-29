@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_testimonials_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "thumbUp"
+  },
+  "options": {},
+  "attributes": {
+    "Testimonial": {
+      "type": "text"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "HeroSubtile": {
+      "type": "string"
+    },
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroDescription": {
+      "type": "text"
+    },
+    "HeroMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MissionSubtitle": {
+      "type": "string"
+    },
+    "MissionTitle": {
+      "type": "string"
+    },
+    "MissionContent": {
+      "type": "text"
+    },
+    "MissionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TestimonialTitle": {
+      "type": "string"
+    },
+    "CTASubtitle": {
+      "type": "string"
+    },
+    "CTATitle": {
+      "type": "string"
+    },
+    "CTAContent": {
+      "type": "text"
+    },
+    "test": {
+      "type": "dynamiczone",
+      "components": [
+        "testimonials.testimonials"
+      ]
+    }
+  }
+}

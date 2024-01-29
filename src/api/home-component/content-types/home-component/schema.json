@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_components",
+  "info": {
+    "singularName": "home-component",
+    "pluralName": "home-components",
+    "displayName": "HomeComponent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroDescription": {
+      "type": "text"
+    },
+    "HeroMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutSubtitle": {
+      "type": "string"
+    },
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutDescription": {
+      "type": "text"
+    },
+    "AboutMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ServicesTitle": {
+      "type": "string"
+    },
+    "ServicesSubtitle": {
+      "type": "string"
+    },
+    "ServicesDescription": {
+      "type": "text"
+    },
+    "WhyChooseUsSubTitle": {
+      "type": "string"
+    },
+    "WhyChooseUsTitle": {
+      "type": "string"
+    },
+    "WhyChooseUsDescription": {
+      "type": "text"
+    },
+    "BlogsSubTitle": {
+      "type": "string"
+    },
+    "BlogsTitle": {
+      "type": "string"
+    },
+    "PageTitle": {
+      "type": "string"
+    }
+  }
+}
